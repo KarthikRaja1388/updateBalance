@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>Banking app</title>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li class="greeting">Welcome, Test</li>
+      </ul>
+    </nav>
+    <main>
+      <div class="account-profile">
+        <p class="name">Name: Test</p>
+        <p class="balance"></p>
+      </div>
+      <div class="user-action">
+        <div class="user-action-container">
+          <input type="text" class="amount" placeholder="Enter the amount" />
+          <div class="btn-container">
+            <a href="#" class="btn btn-deposit" data-type="deposit">Deposit</a>
+            <a href="#" class="btn btn-withdraw" data-type="withdraw"
+              >Withdraw</a
+            >
+          </div>
+        </div>
+        <div class="user-transactions">
+          <h2>Transactions</h2>
+          <ul class="transaction-list">
+            <li>
+              <div>Type</div>
+              <div>Amount</div>
+              <div>Balance</div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

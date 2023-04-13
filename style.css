@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  min-height: 100vh;
+}
+nav {
+  background-color: #262626;
+  color: #fff;
+  padding: 1rem 0;
+  display: flex;
+}
+nav ul {
+  flex: 1;
+  display: flex;
+}
+nav ul li {
+  margin-left: auto;
+  padding: 0 0.5rem;
+  list-style: none;
+}
+main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.account-profile {
+  flex: 1;
+  border-right: 1px solid #262626;
+}
+.user-action {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  flex: 1;
+}
+.user-action-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  text-align: left;
+}
+.amount {
+  padding: 0.5rem;
+  border: none;
+  box-shadow: 0 0 5px #000;
+  border-radius: 0.2rem;
+}
+.btn-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+.btn {
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.2rem;
+  color: #fff;
+}
+.btn-deposit {
+  background-color: #227e22;
+}
+.btn-withdraw {
+  background-color: #b65959;
+}
+.transaction-list {
+  padding: 1rem 0;
+  width: 100%;
+}
+.transaction-list li {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  list-style-type: none;
+  gap: 2rem;
+}
+.transaction-list li div {
+  flex: 1;
+}
